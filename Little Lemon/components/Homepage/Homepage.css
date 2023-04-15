@@ -1,0 +1,52 @@
+.week-special {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #495e57;
+  border-radius: 30px;
+}
+
+.week-special h2 {
+  font-size: 40px;
+  color: #f4ce14;
+}
+
+.specials img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.specials {
+  background-color: #ee9972;
+  max-width: 300px;
+  border-radius: 30px;
+}
+
+.specials-container {
+  display: flex;
+  gap: 60px;
+}
+
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.price {
+  color: black;
+}
+
+.name-price + p {
+  margin: 0 20px 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  .specials-container {
+    display: block;
+  }
+}
